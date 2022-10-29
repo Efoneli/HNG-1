@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey/900;
+}
+
+h4 {
+    display: none;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.all-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon {
+    left: 0px;
+    right: 0px;
+    margin-top: 20px;
+    padding-left: 200px;
+}
+
+#img-2 {
+    display: none;
+}
+
+
+button {
+    width: 1152px;
+    height: 76px;
+    background-color: grey/200;
+    color: grey/900;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin: 15px;
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    width: 1152px;
+    top: 862px;
+    left: 112px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+#slack-git {
+    padding: 20px;
+
+}
+    
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 64px;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 998px;
+    background: #ffffff;
+
+}
+
+@media screen and (max-width: 600px) {
+#img-1 {
+    display: none;
+}
+
+#img-2 {
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 64px;
+    height: 196px;
+    width: 375px;
+    left: 0px;
+    top: 892;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+button {
+    width: 343px;
+    height: 68px;
+    padding: 24px 32px;
+}
+
+}
