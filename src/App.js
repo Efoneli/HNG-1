@@ -4,7 +4,7 @@ import Arrow from './img/_Avatar share button.jpg';
 import logo from './img/logo.jpg';
 import zuri from './img/zuri.jpg';
 import hng from './img/hng.jpg';
-import slack from './img/slack.jpg';
+import slack from './img/slack.png';
 import git from './img/git.jpg';
 import dot from './img/dot.jpg';
 
