@@ -4,7 +4,7 @@ import Arrow from './img/_Avatar share button.jpg';
 import logo from './img/logo.jpg';
 import zuri from './img/zuri.jpg';
 import hng from './img/hng.jpg';
-import slack from './img/slack.png';
+import slack from './img/slack.jpg';
 import git from './img/git.jpg';
 import dot from './img/dot.jpg';
 
@@ -17,9 +17,9 @@ function App() {
         <img src={dot} alt='dot' id='img-2' />
         </div>
       <div className='first-div'>
-        <div id='profile_img'>
-        <img src={AnnetteBlack} alt='profile pic'/>
-        <p>Annette Black</p>
+        <div >
+        <img src={AnnetteBlack} alt='profile pic' id='profile_img'/>
+        <p id='twitter'>AEfoneli</p>
       </div>
       </div>
 
@@ -32,40 +32,48 @@ function App() {
       </div>
 
       <div>
-      <a href='https://training.zuri.team/'>
+      <a href='https://training.zuri.team/' id='btn-zuri'>
 
-        <button>Zuri Team</button>
+        <button>Zuri Team<br />
+        <sub>Join the zuri team today</sub>
+        </button>
         </a>
       </div>
 
       <div>
-      <a href='http://books.zuri.team/'>
-        <button>Zuri Books</button>
+      <a href='http://books.zuri.team/' id='books'>
+        <button>Zuri Books<br />
+        <sub>Contains Books about coding and design</sub>
+        </button>
         </a>
       </div>
 
       <div>
-      <a href='https://books.zuri.team/'>
-        <button>Python Books</button>
+      <a href='https://books.zuri.team/' id='book_python'>
+        <button>Python Books<br />
+        <sub>Learn Python programming language</sub>
+        </button>
         </a>
       </div>
 
       <div>
-      <a href='https://background.zuri.team/'>
-        <button>Background Check for Coders</button>
+      <a href='https://background.zuri.team/' id='pitch'>
+        <button>Background Check for Coders<br />
+        <sub>Konw more about the background of coders</sub>
+        </button>
         </a>
       </div>
 
       <div>
-      <a href='https://books.zuri.team/design-rules'>
-        <button>Design books</button>
+      <a href='https://books.zuri.team/design-rules' id='book_design'>
+        <button>Design books<br />
+        <sub>Free design book from Zuri</sub>
+        </button>
         </a>
       </div>
       </div>
       <div className='social-media'>
         <div>
-          <i data-feather='slack'></i>
-          <i data-feather='twitter'></i>
           <img src={slack} alt='slack' id='slack-git' />
           <h4 id='slack'>efoneli</h4>
         </div>
