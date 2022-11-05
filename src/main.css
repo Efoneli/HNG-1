@@ -21,9 +21,8 @@ body {
     overflow: hidden;
 }
 
-p{
-    font-weight: 700;
-    font-size: 20px;
+h2 {
+    font-size:;
     line-height: 30px;
     color: grey/900;
 }
@@ -75,6 +74,13 @@ button {
 
 }
 
+.btn-div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .social-media {
     display: flex;
     align-items: center;
@@ -96,18 +102,50 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 8px 0px;
     gap: 64px;
     width: 1440px;
     height: 160px;
     left: 0px;
-    top: 998px;
+    top: 500px;
     background: #ffffff;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
 
 }
 
-@media screen and (max-width: 600px) {
+#email {
+    width: 100%;
+}
+
+#first_name, #last_name {
+    width: 100%;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    font-size: x-large;
+    margin-top: 60px;
+}
+
+
+
+@media screen and (max-width: 640px) {
 #img-1 {
     display: none;
 }
@@ -118,22 +156,31 @@ button {
 
 .footer {
     display: flex;
+    align-items: left;
+    justify-content: left;
     flex-direction: column;
-    align-items: center;
+    gap: 50px;
     padding: 32px 0px;
-    gap: 64px;
     height: 196px;
-    width: 375px;
+    top: 500px;
     left: 0px;
-    top: 892;
-    background-color: #ffffff;
-    position: absolute;
+
 }
 
 button {
     width: 343px;
     height: 68px;
-    padding: 24px 32px;
+    padding: 5px
+}
+
+#name-div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#first_name, #last_name {
+    width: 100%;
 }
 
 }
