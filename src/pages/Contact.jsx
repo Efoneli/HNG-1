@@ -15,7 +15,7 @@ const Contact = () => {
         <p class=''>Hi there, contact me to ask me about anything  you have in mind.</p>
         </div>
 
-        <div className='p-2'>
+        <div className='p-8'>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div class='m-2 flex justify-between gap-3 ' id='name-div'>
           <div className='lg:w-1/2 md:w-full sm:w-full'>
